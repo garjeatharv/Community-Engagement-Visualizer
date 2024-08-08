@@ -1,0 +1,34 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: var(rgb(225, 121, 121));
+  color: var(rgb(234, 19, 19));
+}
+
+.title-name {
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: gray;
+}
+
+.metrics-container, .chart-container, .top-contributors {
+  width: 100%;
+}
+
+.top-contributors-title{
+    padding-top: -80%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+  .dashboard-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

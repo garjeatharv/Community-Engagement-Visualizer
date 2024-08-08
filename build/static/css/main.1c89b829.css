@@ -1,0 +1,2 @@
+.dashboard-container{align-items:center;background-color:var(#e17979);color:var(#ea1313);display:flex;flex-direction:column;padding:20px}.title-name{padding:20px;text-align:center;width:100%}h1{color:gray}.chart-container,.metrics-container,.top-contributors{width:100%}.top-contributors-title{padding-top:-80%;text-align:center}@media (min-width:768px){.dashboard-container{flex-direction:row;justify-content:space-between}}
+/*# sourceMappingURL=main.1c89b829.css.map*/
