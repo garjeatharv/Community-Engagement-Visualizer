@@ -1,85 +1,70 @@
-## Community-Metrics-Dashboard
+# Getting Started with Create React App
 
-**Community-Metrics-Dashboard** is an interactive web application designed to visualize and analyze key metrics for community management. The project integrates a React frontend with a Node.js/Express backend and MongoDB database, providing a comprehensive dashboard to monitor community engagement and growth.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Features
+## Available Scripts
 
-- **Real-Time Data Fetching:** Retrieves and displays community metrics from a backend API.
-- **Dynamic Charts:** Visualizes growth rates and other metrics using interactive charts with Chart.js.
-- **Metrics Display:** Shows important statistics including total members, engagement rates, active/inactive members, and top contributors.
-- **Data Generation:** Generates realistic test data for users and messages using Faker.js.
-- **Backend API:** Provides a RESTful API to fetch community metrics and manage data.
+In the project directory, you can run:
 
-### Project Structure
+### `npm start`
 
-- **Frontend:**
-  - **React Components:** Main dashboard and chart components.
-  - **Chart.js Integration:** For rendering dynamic line charts.
-  - **CSS Styling:** Custom styles for the dashboard.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Backend:**
-  - **Express Server:** Handles API requests and serves data.
-  - **MongoDB Database:** Stores user and message data.
-  - **Data Generation Scripts:** Uses Faker.js to create sample data for testing.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Installation and Setup
+### `npm test`
 
-**Frontend:**
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/community-metrics-dashboard.git
-   cd community-metrics-dashboard
-   ```
+### `npm run build`
 
-2. Navigate to the `src` directory:
-   ```bash
-   cd ./src
-   ```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-4. Start the development server:
-   ```bash
-   npm start
-   ```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-**Backend:**
+### `npm run eject`
 
-1. Navigate to the `backend` directory:
-   ```bash
-   cd backend
-   ```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-3. Start the server:
-   ```bash
-   npm start
-   ```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-   Ensure MongoDB is running on your local machine with:
-   ```bash
-   mongod
-   ```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### Usage
+## Learn More
 
-Open your browser and go to `http://localhost:3000` to view the Community Metrics Dashboard. The frontend will fetch data from the backend API running at `http://localhost:3001`.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Credits
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- **React:** [React Documentation](https://reactjs.org/docs/getting-started.html)
-- **Chart.js:** [Chart.js Documentation](https://www.chartjs.org/docs/latest/)
-- **Express:** [Express Documentation](https://expressjs.com/)
-- **Mongoose:** [Mongoose Documentation](https://mongoosejs.com/docs/)
-- **Faker.js:** [Faker.js Documentation](https://fakerjs.dev/)
-- **MongoDB:** [MongoDB Documentation](https://www.mongodb.com/docs/)
+### Code Splitting
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
