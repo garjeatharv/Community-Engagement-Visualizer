@@ -32,9 +32,9 @@
    cd community-metrics-dashboard
    ```
 
-2. Navigate to the `frontend` directory:
+2. Navigate to the `src` directory:
    ```bash
-   cd frontend
+   cd ./src
    ```
 
 3. Install dependencies:
